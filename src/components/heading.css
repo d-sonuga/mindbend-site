@@ -1,0 +1,47 @@
+#heading-container {
+    height: 100vh;
+    align-content: center;
+}
+
+#heading-image {
+    position: absolute;
+    background-image: url('./code.png');
+    background-position: left;
+    filter: brightness(20%);
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+}
+
+#heading-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+#heading-content h1 {
+    color: white;
+    font-family: 'heading';
+    font-size: 5em;
+}
+
+#heading-content p {
+    color: white;
+    font-family: 'sub-heading';
+    font-size: 2em;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'heading';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'sub-heading';
+    src: url('../fonts/Roboto-Thin.ttf') format('truetype');
+}

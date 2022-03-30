@@ -1,0 +1,31 @@
+#philosophy {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#philosophy > h3 {
+    color: #f49831;
+    font-family: heading;
+    font-size: 2.3em;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.philosophy-item {
+    color: #fff;
+    font-family: regular;
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url('../fonts/source-sans-pro/SourceSansPro-SemiBold.ttf') format('truetype');
+}

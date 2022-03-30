@@ -1,0 +1,79 @@
+#reasons {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#reasons h3 {
+    color: #f49831;
+    font-family: heading;
+    font-size: 2.3em;
+    margin-bottom: 50px;
+}
+
+div#reasons > div {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.reason-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #373737;
+    margin: 5px;
+    padding: 30px;
+    font-family: medium;
+    width: 200px;
+}
+
+.reason-card > img {
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+.reason-card > p, .reason-card > h4 {
+    color: #efefef;
+    font-size: 1.1em;
+}
+
+.reason-card > p {
+    font-family: small;
+    font-size: 1.1em;
+}
+
+.reason-card > h4 {
+    font-family: medium;
+    margin-bottom: 5px;
+}
+
+@media(max-width: 841px){
+    div#reasons > div {
+        flex-direction: column;
+    }
+    .reason-card {
+        width: 350px;
+    }
+}
+
+@font-face {
+    font-family: 'heading';
+    src: url('../fonts/source-sans-pro/SourceSansPro-Bold.ttf') format('truetype');
+    font-weight: 2em;
+}
+
+@font-face {
+    font-family: 'medium';
+    src: url('../fonts/source-sans-pro/SourceSansPro-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'small';
+    src: url('../fonts/source-sans-pro/SourceSansPro-Light.ttf') format('truetype');
+}

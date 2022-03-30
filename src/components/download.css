@@ -1,0 +1,39 @@
+#download {
+    background-color: #000;
+    display: flex;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+}
+
+#download > h3 {
+    color: #f49831;
+    font-family: heading;
+    font-size: 2.3em;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#download > p {
+    color: #fff;
+    font-family: regular;
+    font-size: 2em;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+#download > a {
+    color: #fff;
+    font-family: regular;
+    font-size: 1.5em;
+    margin-bottom: 25px;
+    text-align: left;
+    color: #ff2052;
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url('../fonts/source-sans-pro/SourceSansPro-SemiBold.ttf') format('truetype');
+}
